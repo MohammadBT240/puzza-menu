@@ -1,70 +1,116 @@
-# Getting Started with Create React App
+# 🍕 Fast React Pizza Menu
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive pizza menu app built with React. Browse authentic Italian pizzas, check their ingredients, and see which are available or sold out—all with a clean, interactive UI.
 
-## Available Scripts
+![App Screenshot](public/pizzas/margherita.jpg)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Beautiful Menu UI:** Responsive design with a focus on clarity and ease of use.
+- **Dynamic Pizza List:** Displays a curated list of 6 Italian pizzas, each with a photo, description, and price.
+- **Sold Out State:** Sold-out pizzas are visually distinct and cannot be ordered.
+- **Order System:** See when the restaurant is open and place an order during business hours.
+- **Modern Styling:** Uses CSS Grid, Flexbox, and custom fonts for a polished look.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📦 Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+- [Node.js](https://nodejs.org/) (v14 or higher recommended)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the repository:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   git clone <your-repo-url>
+   cd pizza-menu
+   ```
 
-### `npm run eject`
+2. **Install dependencies:**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Start the development server:**
+   ```bash
+   npm start
+   ```
+   The app will open at [http://localhost:3000](http://localhost:3000).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🛠️ Scripts
 
-## Learn More
+- `npm start` — Run the app in development mode.
+- `npm test` — Launch the test runner.
+- `npm run build` — Build the app for production.
+- `npm run eject` — Eject configuration (not recommended unless necessary).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🖼️ Menu Data
 
-### Code Splitting
+Menu items are defined in [`public/data.js`](public/data.js) and include:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Focaccia
+- Pizza Margherita
+- Pizza Spinaci
+- Pizza Funghi
+- Pizza Salamino (sold out)
+- Pizza Prosciutto
 
-### Analyzing the Bundle Size
+Each pizza has a name, ingredients, price, image, and sold-out status.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🧑‍💻 Tech Stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **React 18**
+- **CSS Modules**
+- **Jest & React Testing Library** (for testing)
+- **Create React App** (project scaffolding)
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📁 Project Structure
 
-### Deployment
+```
+public/
+  pizzas/         # Pizza images
+  data.js         # Pizza menu data
+src/
+  App.js          # Main app component
+  index.js        # Entry point
+  App.css         # App-specific styles
+  index.css       # Global styles
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 📬 Contact & Social
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Linkedin: [@Mohammad-Bashir](https://www.linkedin.com/in/mohammad-bashir-7545a3212/)
+- GitHub: [@MohammadBT240](https://github.com/MohammadBT240)
+- Email: bashtukus@gmail.com
+
+## 📚 Learn More
+
+- [React Documentation](https://reactjs.org/)
+- [Create React App Docs](https://facebook.github.io/create-react-app/docs/getting-started)
+
+---
+
+## 📝 License
+
+This project is for educational/demo purposes.
+
+---
+
+**Enjoy your pizza! 🍕**
